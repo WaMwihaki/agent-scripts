@@ -15,4 +15,7 @@ C='nproc'
  then
 	 echo "this sever is very small"
 	 exit 2
- fi 
+ fi
+
+ # checking memory
+ free -m
